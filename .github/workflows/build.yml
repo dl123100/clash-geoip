@@ -26,7 +26,7 @@ jobs:
         with:
           tag_name: latest
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          delete_release: true
+          delete_release: false
           repo: dl123100/clash-geoip
 
       - name: Download IPs
