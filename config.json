@@ -21,7 +21,7 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://raw.githubusercontent.com/DustinWin/clash-geoip/master/IPs/ChinaMax_IP.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ChinaMax_IP.txt"
       }
     },
     {
@@ -29,7 +29,7 @@
       "action": "add",
       "args": {
         "name": "lanip",
-        "uri": "https://raw.githubusercontent.com/DustinWin/clash-geoip/master/IPs/Lan_IP.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/Lan_IP.txt"
       }
     },
     {
