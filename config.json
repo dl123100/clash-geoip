@@ -71,7 +71,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "lanip", "telegram", "google", "apple"]
+        "wantedList": ["cn", "lanip", "telegram", "google", "apple"]
       }
     },
     {
