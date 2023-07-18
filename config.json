@@ -47,7 +47,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["cn", "lanip", "telegram", "google"]
+        "wantedList": ["cn", "lanip", "telegram"]
       }
     },
     {
@@ -55,7 +55,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "lanip", "telegram", "google"]
+        "overwriteList": ["cn", "lanip", "telegram", "google"]
       }
     },
     {
