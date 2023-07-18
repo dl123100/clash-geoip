@@ -52,14 +52,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "microsoft",
-        "uri": "https://github.com/aalex954/MSFT-IP-Tracker/releases/latest/download/msft_asn_ip_ranges.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "telegram",
         "uri": "https://core.telegram.org/resources/cidr.txt"
       }
@@ -79,7 +71,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "lanip", "telegram", "google", "apple", "microsoft"]
+        "overwriteList": ["cn", "lanip", "telegram", "google", "apple"]
       }
     },
     {
