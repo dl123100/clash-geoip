@@ -67,6 +67,14 @@
   ],
   "output": [
     {
+      "type": "v2rayGeoIPDat",
+      "action": "output",
+      "args": {
+        "outputName": "geoip.dat",
+        "wantedList": ["cn", "lanip", "telegram"]
+      }
+    },
+    {
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
