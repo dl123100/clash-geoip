@@ -52,6 +52,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "cn_bing",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/CN_Bing_IP.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "telegram",
         "uri": "https://core.telegram.org/resources/cidr.txt"
       }
@@ -59,19 +67,11 @@
   ],
   "output": [
     {
-      "type": "v2rayGeoIPDat",
-      "action": "output",
-      "args": {
-        "outputName": "geoip.dat",
-        "wantedList": ["cn", "lanip", "telegram"]
-      }
-    },
-    {
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "lanip", "telegram", "google", "apple"]
+        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "cn_bing"]
       }
     },
     {
