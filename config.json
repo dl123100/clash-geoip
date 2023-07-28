@@ -68,6 +68,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "windows",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/Windows_IP.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "telegram",
         "uri": "https://core.telegram.org/resources/cidr.txt"
       }
@@ -87,7 +95,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "cn_bing", "github"]
+        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "cn_bing", "windows", "github"]
       }
     },
     {
