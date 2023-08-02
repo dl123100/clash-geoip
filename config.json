@@ -95,7 +95,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["cn", "lanip", "telegram"]
+        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "twitter", "cn_bing", "windows", "github"]
       }
     },
     {
