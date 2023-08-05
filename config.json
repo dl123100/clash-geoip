@@ -53,7 +53,7 @@
       "action": "add",
       "args": {
         "name": "apple",
-        "uri": "https://raw.githubusercontent.com/Rafeal-Ma/My-IP/main/Apple"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/Apple_Services.list"
       }
     },
     {
