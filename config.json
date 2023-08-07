@@ -44,6 +44,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "cert",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/cert.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "twitter",
         "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/twitter.txt"
       }
@@ -103,7 +111,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "twitter", "cn_bing", "windows", "github"]
+        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "twitter", "cn_bing", "cert", "windows", "github"]
       }
     },
     {
