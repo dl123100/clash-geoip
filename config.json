@@ -101,7 +101,7 @@
       "action": "add",
       "args": {
         "name": "telegram",
-        "uri": "https://core.telegram.org/resources/cidr.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/telegram.txt"
       }
     }
   ],
