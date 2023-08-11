@@ -36,6 +36,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "pollute",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/pollute.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "google",
         "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/google.txt"
       }
@@ -119,7 +127,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "twitter", "cn_bing", "facebook", "cert", "windows", "github"]
+        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github"]
       }
     },
     {
