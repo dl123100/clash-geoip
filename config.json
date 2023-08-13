@@ -131,14 +131,6 @@
   ],
   "output": [
     {
-      "type": "v2rayGeoIPDat",
-      "action": "output",
-      "args": {
-        "outputName": "geoip.dat",
-        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "twitter", "cn_bing", "facebook", "cert", "windows", "github"]
-      }
-    },
-    {
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
