@@ -75,6 +75,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "akamai",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/akamai.list"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "cn_bing",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/CN_Bing_IP.txt"
       }
@@ -134,7 +142,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "cloudflare", "lanip", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github"]
+        "wantedList": ["cn", "cloudflare", "lanip", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai"]
       }
     },
     {
