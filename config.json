@@ -28,7 +28,7 @@
       "action": "add",
       "args": {
         "name": "ccc-cn",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/CCC-CN.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/CCC_CN.txt"
       }
     },
     {
