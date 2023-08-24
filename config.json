@@ -166,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["cn", "lanip", "telegram", "google", "apple", "twitter", "cn_bing", "facebook", "cert", "windows", "github"]
+        "wantedList": ["aws", "cn", "ccc-cn", "wechat", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai"]
       }
     },
     {
