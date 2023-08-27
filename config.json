@@ -12,7 +12,7 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ChinaMax_IP.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/china_ip_list.txt"
       }
     },
     {
@@ -28,7 +28,7 @@
       "action": "add",
       "args": {
         "name": "lanip",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/Lan_IP.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/lan.txt"
       }
     },
     {
@@ -44,7 +44,7 @@
       "action": "add",
       "args": {
         "name": "aws",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/aws.list"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/aws.txt"
       }
     },
     {
@@ -84,7 +84,7 @@
       "action": "add",
       "args": {
         "name": "apple",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/Apple_Services.list"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/apple.txt"
       }
     },
     {
@@ -92,7 +92,7 @@
       "action": "add",
       "args": {
         "name": "akamai",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/akamai.list"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/akamai.txt"
       }
     },
     {
@@ -100,7 +100,7 @@
       "action": "add",
       "args": {
         "name": "cn_bing",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/CN_Bing_IP.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/cn_bing.txt"
       }
     },
     {
@@ -108,7 +108,7 @@
       "action": "add",
       "args": {
         "name": "github",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/Github_IP.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/github.txt"
       }
     },
     {
@@ -116,7 +116,7 @@
       "action": "add",
       "args": {
         "name": "windows",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/Windows_IP.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/windows.txt"
       }
     },
     {
@@ -124,7 +124,7 @@
       "action": "add",
       "args": {
         "name": "ntp",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ntp.list"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ntp.txt"
       }
     },
     {
