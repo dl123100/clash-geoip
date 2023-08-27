@@ -19,22 +19,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "wechat",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/wechat.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "ccc-cn",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/CCC_CN.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "xiaomi",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/xiaomi.txt"
       }
@@ -174,7 +158,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["aws", "cn", "ccc-cn", "wechat", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai", "ntp"]
+        "wantedList": ["aws", "cn", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai", "ntp"]
       }
     },
     {
@@ -182,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["aws", "cn", "ccc-cn", "wechat", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai", "ntp"]
+        "wantedList": ["aws", "cn", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai", "ntp"]
       }
     },
     {
