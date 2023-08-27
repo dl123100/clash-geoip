@@ -115,6 +115,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "developer",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/developer.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "windows",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/windows.txt"
       }
