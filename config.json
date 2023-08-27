@@ -52,7 +52,7 @@
       "action": "add",
       "args": {
         "name": "google",
-        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/google.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/google.txt"
       }
     },
     {
