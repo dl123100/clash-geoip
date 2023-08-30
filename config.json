@@ -123,8 +123,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "windows",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/windows.txt"
+        "name": "microsoft",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/microsoft.txt"
       }
     },
     {
@@ -166,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["aws", "cn", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai", "ntp"]
+        "wantedList": ["aws", "cn", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "microsoft", "github", "akamai", "ntp"]
       }
     },
     {
@@ -174,7 +174,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["aws", "cn", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "windows", "github", "akamai", "ntp"]
+        "wantedList": ["aws", "cn", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "cn_bing", "facebook", "cert", "microsoft", "github", "akamai", "ntp"]
       }
     },
     {
