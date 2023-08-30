@@ -27,6 +27,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "ccc",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ccc.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "lanip",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/lan.txt"
       }
@@ -174,7 +182,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["aws", "cn", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "bing", "facebook", "cert", "microsoft", "github", "akamai", "ntp"]
+        "wantedList": ["aws", "cn", "ccc", "cloudflare", "lanip", "xiaomi", "telegram", "google", "apple", "twitter", "pollute", "bing", "facebook", "cert", "microsoft", "github", "akamai", "ntp"]
       }
     },
     {
