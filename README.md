@@ -9,5 +9,6 @@
 - [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 - [@pmkol/easymosdns](https://github.com/pmkol/easymosdns)
 - [@misakaio/chnroutes2](https://github.com/misakaio/chnroutes2)
+- [@gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip)
 - [@blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 - [@LM-Firefly/Rules](https://github.com/LM-Firefly/Rules)
