@@ -43,6 +43,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "googlecn",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/googlecn.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "facebook",
         "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/facebook.txt"
       }
@@ -51,8 +59,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "cert",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/cert.txt"
+        "name": "bing",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/bing.txt"
       }
     },
     {
@@ -69,14 +77,6 @@
       "args": {
         "name": "apple",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/apple.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "akamai",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/akamai.txt"
       }
     },
     {
@@ -118,7 +118,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "apple", "twitter", "facebook", "cert", "microsoft", "developer", "akamai", "ntp"]
+        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "ntp"]
       }
     },
     {
@@ -126,7 +126,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "apple", "twitter", "facebook", "cert", "microsoft", "developer", "akamai", "ntp"]
+        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "ntp"]
       }
     },
     {
