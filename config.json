@@ -19,6 +19,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "fastly",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/fastly.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "ccc",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ccc.txt"
       }
@@ -134,7 +142,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject"]
+        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject", "fastly"]
       }
     },
     {
@@ -142,7 +150,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject"]
+        "wantedList": ["cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject", "fastly"]
       }
     },
     {
