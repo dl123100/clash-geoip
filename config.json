@@ -83,6 +83,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "ai",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/text/ai.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "apple",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/apple.txt"
       }
@@ -150,7 +158,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["akamai", "cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject", "fastly"]
+        "wantedList": ["ai", "akamai", "cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject", "fastly"]
       }
     },
     {
@@ -158,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["akamai", "cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject", "fastly"]
+        "wantedList": ["ai", "akamai", "cn", "ccc", "lanip", "telegram", "google", "googlecn", "apple", "twitter", "facebook", "bing", "microsoft", "developer", "direct", "game", "reject", "fastly"]
       }
     },
     {
