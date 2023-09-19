@@ -84,7 +84,7 @@
       "action": "add",
       "args": {
         "name": "ai",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/text/ai.txt"
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ai.txt"
       }
     },
     {
