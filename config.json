@@ -67,6 +67,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "microsoft",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/microsoft.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "bing",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/bing.txt"
       }
@@ -101,14 +109,6 @@
       "args": {
         "name": "developer",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/developer.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "microsoft",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/microsoft.txt"
       }
     },
     {
