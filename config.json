@@ -59,8 +59,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "microsoft",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/microsoft.txt"
+        "name": "bing",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/bing.txt"
       }
     },
     {
@@ -93,14 +93,6 @@
       "args": {
         "name": "direct",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/direct.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "game",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/game.txt"
       }
     },
     {
@@ -142,7 +134,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "microsoft", "developer", "direct", "game", "reject", "fastly"]
+        "wantedList": ["ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "direct", "reject", "fastly"]
       }
     },
     {
@@ -150,7 +142,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "microsoft", "developer", "direct", "game", "reject", "fastly"]
+        "wantedList": ["ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "direct", "reject", "fastly"]
       }
     },
     {
