@@ -51,6 +51,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "youtube",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/youtube.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "facebook",
         "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/facebook.txt"
       }
@@ -158,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "direct", "reject", "fastly"]
+        "wantedList": ["apple", "ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "direct", "reject", "fastly", "youtube"]
       }
     },
     {
@@ -166,7 +174,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix","direct", "reject", "fastly"]
+        "wantedList": ["apple", "ai", "akamai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix","direct", "reject", "fastly", "youtube"]
       }
     },
     {
