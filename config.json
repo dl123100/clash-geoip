@@ -19,7 +19,7 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "lanip",
+        "name": "lan",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/lan.txt"
       }
     },
@@ -174,7 +174,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
+        "wantedList": ["apple", "ai", "cn", "lan", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "httpdns", "youtube", "speedtest"]
       }
     },
     {
@@ -182,7 +182,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
+        "wantedList": ["apple", "ai", "cn", "lan", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "httpdns", "youtube", "speedtest"]
       }
     },
     {
