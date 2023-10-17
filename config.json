@@ -51,14 +51,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "facebook",
-        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/facebook.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "bing",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/bing.txt"
       }
@@ -67,16 +59,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "twitter",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/twitter.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "ai",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ai.txt"
+        "name": "openai",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/openai.txt"
       }
     },
     {
@@ -101,14 +85,6 @@
       "args": {
         "name": "xiaomi",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/xiaomi.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "apple",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/apple.txt"
       }
     },
     {
@@ -174,7 +150,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
+        "wantedList": ["openai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
       }
     },
     {
@@ -182,7 +158,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
+        "wantedList": ["openai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
       }
     },
     {
