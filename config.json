@@ -123,6 +123,22 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "tracker",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/tracker.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "ntp",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ntp.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "httpdns",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/httpdns.txt"
       }
@@ -158,7 +174,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "direct", "reject", "youtube", "speedtest"]
+        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
       }
     },
     {
@@ -166,7 +182,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix","direct", "reject", "youtube", "speedtest"]
+        "wantedList": ["apple", "ai", "cn", "lanip", "telegram", "tracker", "google", "googlecn", "twitter", "facebook", "xiaomi", "bing", "developer", "netlix", "ntp", "direct", "reject", "youtube", "speedtest"]
       }
     },
     {
