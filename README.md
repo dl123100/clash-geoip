@@ -13,3 +13,4 @@
 - [@felixonmars/chnroutes-alike](https://github.com/felixonmars/chnroutes-alike)
 - [@blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 - [@LM-Firefly/Rules](https://github.com/LM-Firefly/Rules)
+- [@Dogfight360/UsbEAm](https://github.com/dogfight360/UsbEAm)
