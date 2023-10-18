@@ -158,7 +158,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netlix", "ntp", "reject", "speedtest", "telegram", "tracker", "xiaomi", "youtube"]
+        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "xiaomi", "youtube"]
       }
     },
     {
@@ -166,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netlix", "ntp", "reject", "speedtest", "telegram", "tracker", "xiaomi", "youtube"]
+        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "xiaomi", "youtube"]
       }
     },
     {
