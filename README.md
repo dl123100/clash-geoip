@@ -15,3 +15,4 @@
 - [@LM-Firefly/Rules](https://github.com/LM-Firefly/Rules)
 - [@DustinWin/clash-geoip](https://github.com/DustinWin/clash-geoip)
 - [@Dogfight360/UsbEAm](https://github.com/dogfight360/UsbEAm)
+- [@ChengzhiLiu/TrickyRule](https://github.com/ChengzhiLiu/TrickyRule)
