@@ -15,4 +15,5 @@
 - [@LM-Firefly/Rules](https://github.com/LM-Firefly/Rules)
 - [@DustinWin/clash-geoip](https://github.com/DustinWin/clash-geoip)
 - [@Dogfight360/UsbEAm](https://github.com/dogfight360/UsbEAm)
+- [@lord-alfred/ipranges](https://github.com/lord-alfred/ipranges)
 - [@ChengzhiLiu/TrickyRule](https://github.com/ChengzhiLiu/TrickyRule)
