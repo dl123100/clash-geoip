@@ -59,7 +59,7 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "bing",
+        "name": "microsoft",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/microsoft.txt"
       }
     },
@@ -115,8 +115,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "netflix",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/netflix.txt"
+        "name": "streaming",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/streaming.txt"
       }
     },
     {
@@ -142,7 +142,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "microsoft", "cn", "developer", "direct", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube"]
+        "wantedList": ["apple", "microsoft", "cn", "developer", "direct", "google", "googlecn", "httpdns", "lan", "streaming", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube"]
       }
     },
     {
@@ -150,7 +150,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "microsoft", "cn", "developer", "direct", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube"]
+        "wantedList": ["apple", "microsoft", "cn", "developer", "direct", "google", "googlecn", "httpdns", "lan", "streaming", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube"]
       }
     },
     {
