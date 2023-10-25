@@ -91,14 +91,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "xiaomi",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/xiaomi.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "reject",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/reject.txt"
       }
@@ -158,7 +150,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "xiaomi", "youtube"]
+        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube"]
       }
     },
     {
@@ -166,7 +158,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "xiaomi", "youtube"]
+        "wantedList": ["apple", "bing", "cn", "developer", "direct", "fcm", "google", "googlecn", "httpdns", "lan", "netflix", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube"]
       }
     },
     {
