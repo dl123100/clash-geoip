@@ -75,10 +75,25 @@ jobs:
             sha256sum ${name} > ./${name}.sha256sum
           done
 
+      - name: Checkout SagerNet/sing-geoip
+        uses: actions/checkout@v4
+        with:
+          repository: SagerNet/sing-geoip
+          path: sing-geoip
+  
+      - name: Build geoip.db file
+        env:
+          NO_SKIP: true
+        run: |
+          cd sing-geoip || exit 1
+          cp ../output/dat/geoip.dat ./
+          go run -v . geoip.dat geoip.db
+          sha256sum geoip.db > geoip.db.sha256sum
+
       - name: Move files to publish directory
         run: |
           mkdir -p publish
-          mv ./output/dat/*.dat ./output/dat/*.sha256sum ./output/maxmind/*.mmdb ./output/maxmind/*.sha256sum ./publish/
+          mv ./output/dat/*.dat ./output/dat/*.sha256sum ./sing-geoip/*.db ./sing-geoip/*.db.sha256sum ./output/maxmind/*.mmdb ./output/maxmind/*.sha256sum ./publish/
           cp -fpPR ./output/text ./publish
 
       - name: Git push assets to "release" branch
