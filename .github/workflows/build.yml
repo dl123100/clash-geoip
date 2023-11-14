@@ -86,8 +86,8 @@ jobs:
           NO_SKIP: true
         run: |
           cd sing-geoip || exit 1
-          cp ../output/dat/geoip.dat ./
-          go run -v . geoip.dat geoip.db
+          cp ../output/maxmind/Country.mmdb ./
+          go run -v . Country.mmdb geoip.db
           sha256sum geoip.db > geoip.db.sha256sum
 
       - name: Move files to publish directory
