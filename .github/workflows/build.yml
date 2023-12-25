@@ -75,25 +75,10 @@ jobs:
             sha256sum ${name} > ./${name}.sha256sum
           done
 
-      - name: Checkout SagerNet/sing-geoip
-        uses: actions/checkout@v4
-        with:
-          repository: SagerNet/sing-geoip
-          path: sing-geoip
-  
-      - name: Build geoip.db file
-        env:
-          NO_SKIP: true
-        run: |
-          cd sing-geoip || exit 1
-          cp ../output/maxmind/Country.mmdb ./
-          go run -v . Country.mmdb geoip.db
-          sha256sum geoip.db > geoip.db.sha256sum
-
       - name: Move files to publish directory
         run: |
           mkdir -p publish
-          mv ./output/dat/*.dat ./output/dat/*.sha256sum ./sing-geoip/*.db ./sing-geoip/*.db.sha256sum ./output/maxmind/*.mmdb ./output/maxmind/*.sha256sum ./publish/
+          mv ./output/dat/*.dat ./output/dat/*.sha256sum ./output/maxmind/*.mmdb ./output/maxmind/*.sha256sum ./publish/
           cp -fpPR ./output/text ./publish
 
       - name: Git push assets to "release" branch
@@ -107,13 +92,6 @@ jobs:
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add geoip "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u geoip release
-
-      - name: Purge jsdelivr CDN
-        run: |
-          cd publish || exit 1
-          for file in $(ls); do
-            curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@release/${file}"
-          done
 
       - name: Remove some files to avoid publishing to GitHub release
         run: rm -rf ./publish/*.{gz,zip} ./publish/text
