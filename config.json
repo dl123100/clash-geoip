@@ -51,14 +51,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "googlecn",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/googlecn.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "youtube",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/youtube.txt"
       }
@@ -182,7 +174,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
       }
     },
     {
@@ -190,7 +182,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
       }
     },
     {
