@@ -67,7 +67,7 @@ jobs:
         run: |
           go install -trimpath -ldflags="-s -w -buildid=" github.com/metacubex/geo/cmd/geo@master
           geo convert ip -i v2ray -o sing -f geoip.db ./output/dat/geoip.dat
-          sha256sum geoip.db > geosite.db.sha256sum
+          sha256sum geoip.db > ./geosite.db.sha256sum
 
       - name: Generate sha256 checksum for dat files
         run: |
