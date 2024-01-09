@@ -174,7 +174,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
       }
     },
     {
@@ -182,7 +182,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "telegram", "tracker", "youtube", "steamcn"]
       }
     },
     {
