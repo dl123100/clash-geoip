@@ -163,6 +163,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "googlecn",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/googlecn.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "telegram",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/telegram.txt"
       }
