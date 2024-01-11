@@ -51,24 +51,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "youtube",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/youtube.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "microsoft",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/microsoft.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "developer",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/developer.txt"
       }
     },
     {
@@ -107,14 +91,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "ntp",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ntp.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "httpdns",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/httpdns.txt"
       }
@@ -141,14 +117,6 @@
       "args": {
         "name": "steamcn",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/steamcn.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "discord",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/discord.txt"
       }
     },
     {
@@ -190,7 +158,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "tencent", "telegram", "tracker", "youtube", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "reject", "speedtest", "tencent", "telegram", "tracker", "steamcn"]
       }
     },
     {
@@ -198,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "discord", "developer", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "ntp", "reject", "speedtest", "tencent", "telegram", "tracker", "youtube", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "direct", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "reject", "speedtest", "tencent", "telegram", "tracker", "steamcn"]
       }
     },
     {
