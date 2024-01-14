@@ -75,6 +75,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "developer",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/developer.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "tracker",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/tracker.txt"
       }
@@ -150,7 +158,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "reject", "speedtest", "tencent", "telegram", "tracker", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "reject", "speedtest", "tencent", "telegram", "tracker", "steamcn"]
       }
     },
     {
@@ -158,7 +166,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "reject", "speedtest", "tencent", "telegram", "tracker", "steamcn"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "google", "googlecn", "httpdns", "openai", "private", "streaming", "twitter", "reject", "speedtest", "tencent", "telegram", "tracker", "steamcn"]
       }
     },
     {
