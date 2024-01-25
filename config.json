@@ -67,6 +67,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "fastly",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/fastly.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "reject",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/reject.txt"
       }
@@ -166,7 +174,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "google", "googlecn", "httpdns", "openai", "private", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "tencent", "telegram", "tracker"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "openai", "private", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "tencent", "telegram", "tracker"]
       }
     },
     {
@@ -174,7 +182,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "google", "googlecn", "httpdns", "openai", "private", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "tencent", "telegram", "tracker"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "openai", "private", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "tencent", "telegram", "tracker"]
       }
     },
     {
