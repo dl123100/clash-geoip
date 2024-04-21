@@ -59,8 +59,16 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "openai",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/openai.txt"
+        "name": "ai",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ai.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "reddit",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/reddit.txt"
       }
     },
     {
@@ -182,7 +190,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "openai", "private", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "ccc", "telegram", "tracker"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "ai", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "ccc", "telegram", "tracker"]
       }
     },
     {
@@ -190,7 +198,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "openai", "private", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "ccc", "telegram", "tracker"]
+        "wantedList": ["apple", "akamai", "microsoft", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "ai", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "tiktok", "twitter", "ccc", "telegram", "tracker"]
       }
     },
     {
