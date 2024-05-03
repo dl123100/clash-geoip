@@ -107,6 +107,22 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "aws",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/aws.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "cloudflare",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/cloudflare.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "talkatone",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/talkatone.txt"
       }
@@ -214,7 +230,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["ai", "apple", "akamai", "ccc", "cert", "claude", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "talkatone", "tiktok", "twitter", "telegram", "tracker"]
+        "wantedList": ["ai", "apple", "akamai", "aws", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "talkatone", "tiktok", "twitter", "telegram", "tracker"]
       }
     },
     {
@@ -222,7 +238,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["ai", "apple", "akamai", "ccc", "cert", "claude", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "talkatone", "tiktok", "twitter", "telegram", "tracker"]
+        "wantedList": ["ai", "apple", "akamai", "aws", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "talkatone", "tiktok", "twitter", "telegram", "tracker"]
       }
     },
     {
