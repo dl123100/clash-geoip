@@ -139,8 +139,24 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "streaming",
-        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/streaming.txt"
+        "name": "netflix",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/netflix.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "spotify",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/spotify.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "twitch",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/twitch.txt"
       }
     },
     {
@@ -181,6 +197,14 @@
       "args": {
         "name": "ccc",
         "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/ccc.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "cc",
+        "uri": "https://raw.githubusercontent.com/dl123100/clash-geoip/master/IPs/cc.txt"
       }
     },
     {
@@ -230,7 +254,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["ai", "apple", "akamai", "aws", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "talkatone", "tiktok", "twitter", "telegram", "tracker"]
+        "wantedList": ["ai", "apple", "akamai", "aws", "cc", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "netflix", "private", "reddit", "reject", "speedtest", "spotify", "steamcn", "talkatone", "tiktok", "twitter", "telegram", "tracker", "twitch"]
       }
     },
     {
@@ -238,7 +262,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["ai", "apple", "akamai", "aws", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "private", "reddit", "reject", "speedtest", "steamcn", "streaming", "talkatone", "tiktok", "twitter", "telegram", "tracker"]
+        "wantedList": ["ai", "apple", "akamai", "aws", "cc", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "netflix", "private", "reddit", "reject", "speedtest", "spotify", "steamcn", "talkatone", "tiktok", "twitter", "telegram", "tracker", "twitch"]
       }
     },
     {
