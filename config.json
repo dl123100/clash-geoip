@@ -254,7 +254,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["ai", "apple", "akamai", "aws", "cc", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "netflix", "private", "reddit", "reject", "speedtest", "spotify", "steamcn", "talkatone", "tiktok", "twitter", "telegram", "tracker", "twitch"]
+        "wantedList": ["ai", "apple", "akamai", "aws", "cc", "ccc", "cert", "claude", "cloudflare", "cn", "github", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "netflix", "private", "reddit", "reject", "speedtest", "spotify", "steamcn", "talkatone", "tiktok", "twitter", "telegram", "tracker", "twitch"]
       }
     },
     {
@@ -262,7 +262,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["ai", "apple", "akamai", "aws", "cc", "ccc", "cert", "claude", "cloudflare", "cn", "developer", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "netflix", "private", "reddit", "reject", "speedtest", "spotify", "steamcn", "talkatone", "tiktok", "twitter", "telegram", "tracker", "twitch"]
+        "wantedList": ["ai", "apple", "akamai", "aws", "cc", "ccc", "cert", "claude", "cloudflare", "cn", "github", "fastly", "google", "googlecn", "httpdns", "meta", "microsoft", "netflix", "private", "reddit", "reject", "speedtest", "spotify", "steamcn", "talkatone", "tiktok", "twitter", "telegram", "tracker", "twitch"]
       }
     },
     {
