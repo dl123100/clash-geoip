@@ -11,4 +11,4 @@
 - [@Dogfight360/UsbEAm](https://github.com/dogfight360/UsbEAm)
 - [@lord-alfred/ipranges](https://github.com/lord-alfred/ipranges)
 - [@ChengzhiLiu/TrickyRule](https://github.com/ChengzhiLiu/TrickyRule)
-- [@Yi Ke/VPN_Tool](https://gitlab.com/lodepuly/vpn_tool)
+- [@rekryt/iplist](https://github.com/rekryt/iplist)
