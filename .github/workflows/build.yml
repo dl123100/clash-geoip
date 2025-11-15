@@ -28,6 +28,12 @@ jobs:
           delete_release: true
           repo: dl123100/clash-geoip
           
+      - name: Checkout MetaCubeX/meta-rules-converter
+        uses: actions/checkout@v4
+        with:
+          repository: MetaCubeX/meta-rules-converter
+          path: convert
+          
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
@@ -84,7 +90,15 @@ jobs:
           for name in $(ls *.mmdb); do
             sha256sum ${name} > ./${name}.sha256sum
           done
-
+          
+      - name: Build mrs file
+        env:
+          NO_SKIP: true
+        run: |
+          mkdir -p mrs
+          cd convert
+          go run ./ geoip -f ../output/dat/geoip.dat -o ../mrs
+          
       - name: Move files to publish directory
         run: |
           mkdir -p publish
@@ -102,6 +116,18 @@ jobs:
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add geoip "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u geoip release
+
+      - name: Git push assets to "mrs" branch
+        run: |
+          cd mrs || exit 1
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b mrs
+          git add .
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin mrs
 
       - name: Remove some files to avoid publishing to GitHub release
         run: rm -rf ./publish/*.{gz,zip} ./publish/text
