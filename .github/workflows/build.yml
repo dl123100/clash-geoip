@@ -44,17 +44,7 @@ jobs:
           echo "TAG_NAME=latest" >> $GITHUB_ENV
           echo "RELEASE_NAME=latest" >> $GITHUB_ENV
         shell: bash
-
-      - name: Fetch lists from ripe.net
-        run: |
-          chmod +x asn.sh
-          ./asn.sh
-
-      - name: Append more CIDRs
-        run: |
-          curl -sSL https://api.fastly.com/public-ip-list | jq --raw-output '.addresses[],.ipv6_addresses[]' >> data/fastly
-          curl -sSL https://ip-ranges.amazonaws.com/ip-ranges.json | jq --raw-output '.prefixes[],.ipv6_prefixes[] | select(.service == "CLOUDFRONT") | .ip_prefix,.ipv6_prefix' | grep "/" >> data/cloudfront
-          
+        
       - name: Build geoip files
         run: |
           go run ./
@@ -105,7 +95,7 @@ jobs:
         run: |
           mkdir -p srs
           cd convert
-          go run ./ geoip -f ../community/geoip.dat -o ../srs -t sing-box
+          go run ./ geoip -f ../output/dat/geoip.dat -o ../srs -t sing-box
           
       - name: Move files to publish directory
         run: |
