@@ -105,7 +105,7 @@ jobs:
         run: |
           mkdir -p srs
           cd convert
-          go run ./ geoip -f ../community/geoip.dat -o ../srs -t sing-box
+          go run ./ geoip -f ../output/dat/geoip.dat -o ../srs -t sing-box
           
       - name: Move files to publish directory
         run: |
